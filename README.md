@@ -1,4 +1,4 @@
-# W00rdlist_generat0r_byRetr00.exe
+# W00rdlist_generat0r
 Wordlist generator for brute force attack
 
 Automated crunch program to generate wordlist with number pattern. Works using linux terminal and WSL ubuntu.
