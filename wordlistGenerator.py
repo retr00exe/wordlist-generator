@@ -1,6 +1,9 @@
 import subprocess as sp
 import os
 
+
+#This script using crunch https://github.com/crunchsec/crunch
+
 welcome = """                    
 ██╗    ██╗ ██████╗ ██████╗ ██████╗ ██╗     ██╗███████╗████████╗     ██████╗ ███████╗███╗   ██╗███████╗██████╗  █████╗ ████████╗ ██████╗ ██████╗ 
 ██║    ██║██╔═══██╗██╔══██╗██╔══██╗██║     ██║██╔════╝╚══██╔══╝    ██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗
@@ -28,7 +31,7 @@ for word in wordList:
         cmd = ['crunch',str(totalLength-padding),str(totalLength-padding),'1234567890','-t',pattern,'-o',fileOutput]
         padding = padding + 1
         file.append(fileOutput)    
-        print(cmd)
+        sp.call(cmd)
     
 file.extend(['>',word + '.txt'])
 print(file)
