@@ -34,4 +34,4 @@ for word in wordList:
         sp.call(cmd)
     
 file.extend(['>',word + '.txt'])
-print(file)
+print("FINISHED!)
