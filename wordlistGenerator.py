@@ -19,7 +19,6 @@ print(welcome)
 wordList = input("[*] Enter list of word : ").split()
 length = int(input("[*] Enter the number of digits : "))
 print()
-
 file = ['cat']
 
 for word in wordList:
