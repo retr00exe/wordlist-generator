@@ -1,6 +1,4 @@
 import subprocess as sp
-import os
-
 
 #This script using crunch https://github.com/crunchsec/crunch
 
