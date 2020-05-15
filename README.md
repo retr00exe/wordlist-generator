@@ -6,3 +6,7 @@ Automated crunch program to generate wordlist with numbers pattern. Works using 
 Program to install :
 1. Crunch
 2. Python 3.x
+
+```
+python wordlistGenerator.py
+```
